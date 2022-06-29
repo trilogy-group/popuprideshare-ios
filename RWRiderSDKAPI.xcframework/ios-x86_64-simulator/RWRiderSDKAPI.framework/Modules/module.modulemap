@@ -1,0 +1,6 @@
+framework module RWRiderSDKAPI {
+  umbrella header "RWRiderSDKAPI.h"
+
+  export *
+  module * { export * }
+}
