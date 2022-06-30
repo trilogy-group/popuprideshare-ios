@@ -1,0 +1,304 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name RWRider
+import Branch
+import CoreLocation
+import CoreTelephony
+import Foundation
+import GoogleMaps
+import Pulley
+@_exported import RWRider
+import RWRiderSDKAPI
+import RxCocoa
+import RxSwift
+import SDWebImage
+import Swift
+import UIKit.UIFont
+import UIKit
+import URITemplate
+import UserNotificationsUI
+import WebKit
+import _Concurrency
+public enum DeepLinkType {
+  case url
+  case applicationShortcut
+  case pushNotification
+  case notificationCenter
+  public static func == (a: RWRider.DeepLinkType, b: RWRider.DeepLinkType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol DeepLinkParser {
+  func parse(url: Foundation.URL) -> RWRider.DeepLink?
+}
+public protocol FunctionEnable {
+  func showDriverRegistration()
+  func showCampaign()
+  func showPromocode()
+  func setRegistrationMethod(method: RWRider.RegistrationMethod)
+}
+@objc public enum RegistrationMethod : Swift.Int {
+  case OTP = 1
+  case Passsword
+  case PasswordWithOTP
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers public class AppConfiguration : ObjectiveC.NSObject, RWRider.FunctionEnable {
+  @objc public static var sharedInstance: RWRider.AppConfiguration
+  @objc public var clientCode: Swift.String? {
+    get
+  }
+  @objc public var googleMapKey: Swift.String? {
+    get
+  }
+  @objc public var googleMapDirectionKey: Swift.String? {
+    get
+  }
+  @objc public var stripeKey: Swift.String? {
+    get
+  }
+  @objc public var appleMerchantIdentifier: Swift.String? {
+    get
+  }
+  @objc public var apiKey: Swift.String? {
+    get
+  }
+  @objc public var bugFenderKey: Swift.String? {
+    get
+  }
+  @objc public var md5PasswordSalt: Swift.String? {
+    get
+  }
+  @objc public var productionServerURL: Swift.String? {
+    get
+  }
+  @objc public var qaServerURL: Swift.String? {
+    get
+  }
+  @objc public var stageServerURL: Swift.String? {
+    get
+  }
+  @objc public var devServerURL: Swift.String? {
+    get
+  }
+  @objc public var featureServerURL: Swift.String? {
+    get
+  }
+  @objc public var enableDriverRegistration: Swift.Bool {
+    get
+  }
+  @objc public var enablePromocode: Swift.Bool {
+    get
+  }
+  @objc public var enableCampaign: Swift.Bool {
+    get
+  }
+  @objc public var registrationMethod: RWRider.RegistrationMethod {
+    get
+  }
+  @objc override dynamic public init()
+  public func showDriverRegistration()
+  public func showCampaign()
+  public func showPromocode()
+  public func setRegistrationMethod(method: RWRider.RegistrationMethod)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class DSFlowController : ObjectiveC.NSObject & RWRider.Coordinator {
+  @objc public var regConfig: RWRider.ConfigRegistration?
+  @objc public var driver: RWRider.DSDriver
+  @objc public var car: RWRider.DSCar
+  public var rootViewController: UIKit.UIViewController
+  @objc public var licenseViewModel: RWRider.DSLicenseViewModel!
+  @objc public var insuranceViewModel: RWRider.DSCarInsuranceViewModel!
+  @objc public var driverPhotoViewModel: RWRider.DSDriverPhotoViewModel!
+  @objc public var chauffeurViewModel: RWRider.DSChauffeurViewModel!
+  @objc public var inspectionStickerViewModel: RWRider.DSInspectionStickerViewModel!
+  @objc public var carInfoViewModel: RWRider.DSCarInfoViewModel!
+  @objc public var carLicensePlateViewModel: RWRider.DSCarLicensePlateViewModel!
+  @objc public var carIsAddedViewModel: RWRider.DSCarIsAddedViewModel!
+  @objc public var frontPhotoViewModel: RWRider.DSCarPhotoViewModel!
+  @objc public var backPhotoViewModel: RWRider.DSCarPhotoViewModel!
+  @objc public var insidePhotoViewModel: RWRider.DSCarPhotoViewModel!
+  @objc public var trunkPhotoViewModel: RWRider.DSCarPhotoViewModel!
+  @objc deinit
+  public func open(deepLink: RWRider.DeepLink, type: RWRider.DeepLinkType, animated: Swift.Bool) -> Swift.Bool
+  public func setup()
+  public func startDriverSignup()
+  @objc public func endDriverSignup()
+  @objc public func update(city: RWRiderSDKAPI.RACity, detail: RWRiderSDKAPI.RACityDetail)
+  @objc public func submitRegistration(completion: @escaping (Swift.Error?) -> Swift.Void)
+}
+extension RWRider.DSFlowController {
+  @objc dynamic public func showNextScreen(fromScreen: RWRider.DSScreen)
+}
+public protocol Identifiable {
+  static var identifier: Swift.String { get }
+}
+extension RWRider.Identifiable {
+  public static var identifier: Swift.String {
+    get
+  }
+}
+extension UIKit.UIViewController : RWRider.Identifiable {
+}
+extension UIKit.UITableViewCell : RWRider.Identifiable {
+}
+extension UIKit.UITableViewHeaderFooterView : RWRider.Identifiable {
+}
+extension UIKit.UITableView {
+  @_Concurrency.MainActor(unsafe) public func register(_ cellClass: UIKit.UITableViewCell.Type)
+  @_Concurrency.MainActor(unsafe) public func register(_ cellClass: UIKit.UITableViewHeaderFooterView.Type)
+  @_Concurrency.MainActor(unsafe) public func registerNib(_ cellClass: UIKit.UITableViewCell.Type)
+  @_Concurrency.MainActor(unsafe) public func registerNib(_ cellClass: UIKit.UITableViewHeaderFooterView.Type)
+  @_Concurrency.MainActor(unsafe) public func dequeue<T>(_ cellClass: T.Type, for indexPath: Foundation.IndexPath) -> T where T : UIKit.UITableViewCell
+  @_Concurrency.MainActor(unsafe) public func dequeue<T>(_ cellClass: T.Type) -> T where T : UIKit.UITableViewHeaderFooterView
+}
+extension UIKit.UICollectionViewCell : RWRider.Identifiable {
+}
+extension UIKit.UICollectionView {
+  @_Concurrency.MainActor(unsafe) public func register(_ cellClass: UIKit.UICollectionViewCell.Type)
+  @_Concurrency.MainActor(unsafe) public func registerNib(_ cellClass: UIKit.UICollectionViewCell.Type)
+  @_Concurrency.MainActor(unsafe) public func dequeue<T>(_ cellClass: T.Type, for indexPath: Foundation.IndexPath) -> T where T : UIKit.UICollectionViewCell
+}
+extension UIKit.UIView {
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func applyVerticalGradientBGColor()
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func applyHorizontalGradientBGColor()
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func applyHorizontalGradientBGColor(widthScale: CoreGraphics.CGFloat)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func applyGrayBorderColor()
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func applyRoundedWhiteBGColor()
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func applyRoundedBGColor(radius: CoreGraphics.CGFloat, bgColor: Swift.UInt, borderWidth: CoreGraphics.CGFloat, borderColor: Swift.UInt)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func applyFocusShadow(opacity: Swift.CFloat = 0.5)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func removeFocusShadow()
+}
+extension UIKit.UIButton {
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func applyGradientBGColor()
+}
+extension UIKit.UITextField {
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func newGradientBorderLayer(cornerRadius: CoreGraphics.CGFloat) -> QuartzCore.CAGradientLayer
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func applyGradientBorderColor(gradientBorderLayer: QuartzCore.CAGradientLayer)
+}
+extension Swift.String {
+  public func isOnlyNumber() -> Swift.Bool
+}
+public protocol DeepLink {
+}
+public protocol DeepLinkService : RWRider.DeepLinkParser {
+  var parsers: [RWRider.DeepLinkParser] { get }
+}
+public protocol Coordinator : AnyObject {
+  var rootViewController: UIKit.UIViewController { get }
+  func setup()
+  func setup(window: UIKit.UIWindow)
+  @discardableResult
+  func open(deepLink: RWRider.DeepLink, type: RWRider.DeepLinkType, animated: Swift.Bool) -> Swift.Bool
+}
+extension RWRider.Coordinator {
+  public func setup(window: UIKit.UIWindow)
+}
+@objc extension UIKit.UIImage {
+  @objc dynamic public class func imageFromFramework(name: Swift.String) -> UIKit.UIImage
+}
+@objc public protocol MRCountryPickerDelegate {
+  @objc func countryPhoneCodePicker(_ picker: RWRider.MRCountryPicker, didSelectCountryWithName name: Swift.String, countryCode: Swift.String, phoneCode: Swift.String, flag: UIKit.UIImage)
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) open class MRCountryPicker : UIKit.UIPickerView, UIKit.UIPickerViewDelegate, UIKit.UIPickerViewDataSource {
+  @_Concurrency.MainActor(unsafe) open var selectedLocale: Foundation.Locale?
+  @objc @_Concurrency.MainActor(unsafe) weak open var countryPickerDelegate: RWRider.MRCountryPickerDelegate?
+  @_Concurrency.MainActor(unsafe) open var showPhoneNumbers: Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) open func setLocale(_ locale: Swift.String)
+  @objc @_Concurrency.MainActor(unsafe) open func setCountry(_ code: Swift.String)
+  @objc @_Concurrency.MainActor(unsafe) open func setCountryByPhoneCode(_ phoneCode: Swift.String)
+  @_Concurrency.MainActor(unsafe) open func setCountryByName(_ name: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc open func numberOfComponents(in pickerView: UIKit.UIPickerView) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc open func pickerView(_ pickerView: UIKit.UIPickerView, numberOfRowsInComponent component: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc open func pickerView(_ pickerView: UIKit.UIPickerView, viewForRow row: Swift.Int, forComponent component: Swift.Int, reusing view: UIKit.UIView?) -> UIKit.UIView
+  @_Concurrency.MainActor(unsafe) @objc open func pickerView(_ pickerView: UIKit.UIPickerView, didSelectRow row: Swift.Int, inComponent component: Swift.Int)
+  @objc deinit
+}
+extension UIKit.UIFont {
+  public static func registerFont(withFilenameString filenameString: Swift.String, bundle: Foundation.Bundle)
+}
+public typealias LocationPickerCompletionBlock = (RWRiderSDKAPI.RAPickerAddressFieldType, RWRiderSDKAPI.RARideLocationDataModel?, Swift.Bool) -> Swift.Void
+@_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) public class LocationPickerViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @objc @_Concurrency.MainActor(unsafe) public init(fieldType: RWRiderSDKAPI.RAPickerAddressFieldType, completion: @escaping RWRider.LocationPickerCompletionBlock)
+  @objc deinit
+}
+extension RWRider.LocationPickerViewController : GoogleMaps.GMSMapViewDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func mapView(_ mapView: GoogleMaps.GMSMapView, didTap overlay: GoogleMaps.GMSOverlay)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func mapView(_ mapView: GoogleMaps.GMSMapView, idleAt position: GoogleMaps.GMSCameraPosition)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func mapView(_ mapView: GoogleMaps.GMSMapView, didChange position: GoogleMaps.GMSCameraPosition)
+}
+public protocol RWRiderSDKDelegate {
+  func close()
+}
+@objc public class RWRiderConfig : ObjectiveC.NSObject, RWRider.FunctionEnable {
+  @objc public var clientCode: Swift.String
+  @objc public var registerInfo: RWRider.RWRiderRegisterInfo?
+  public init(clientCode: Swift.String)
+  public init(clientCode: Swift.String, registerInfo: RWRider.RWRiderRegisterInfo)
+  public func setMap(key: Swift.String?)
+  public func setDirection(key: Swift.String?)
+  public func showDriverRegistration()
+  public func showCampaign()
+  public func showPromocode()
+  public func setRegistrationMethod(method: RWRider.RegistrationMethod)
+  @objc deinit
+}
+@objc public class RWRiderRegisterInfo : ObjectiveC.NSObject {
+  @objc public var firstName: Swift.String?
+  @objc public var lastName: Swift.String?
+  @objc public var email: Swift.String?
+  @objc public init(firstName: Swift.String?, lastName: Swift.String?, email: Swift.String?)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class RWRiderWrapper : ObjectiveC.NSObject {
+  @objc public static var sharedInstance: RWRider.RWRiderWrapper
+  weak public var delegate: UIKit.UIApplicationDelegate?
+  @objc public var rwRiderConfig: RWRider.RWRiderConfig? {
+    @objc get
+  }
+  public class func setup(_ config: RWRider.RWRiderConfig)
+  public func configMap(key: Swift.String?)
+  public func initialize(window: UIKit.UIWindow)
+  public func root(delegate: RWRider.RWRiderSDKDelegate?) -> UIKit.UINavigationController
+  public func root(delegate: RWRider.RWRiderSDKDelegate?, registerInfo: RWRider.RWRiderRegisterInfo?) -> UIKit.UINavigationController
+  @objc public func isPopupRiderNotification(response: UserNotifications.UNNotificationResponse) -> Swift.Bool
+  @objc public func processPopupRiderNotification(response: UserNotifications.UNNotificationResponse)
+  @objc public func registerForPushNotification(delegate: Swift.AnyObject?)
+  public func didFinishlaunchApplication(launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]?, withDepplink enable: Swift.Bool)
+  public func applicationDidEnterBackground()
+  public func applicationWillEnterForeground()
+  public func applicationDidBecomeActive()
+  public func applicationWillTerminate()
+  public func application(didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Foundation.Data)
+  public func application(didReceiveRemoteNotification userInfo: [Swift.AnyHashable : Any])
+  public func application(_ app: UIKit.UIApplication, open url: Foundation.URL, options: [UIKit.UIApplication.OpenURLOptionsKey : Any] = [:]) -> Swift.Bool
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) public class PaymentViewController : RWRider.BaseViewController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @objc deinit
+}
+extension RWRider.PaymentViewController : UIKit.UITableViewDataSource {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreGraphics.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, viewForHeaderInSection section: Swift.Int) -> UIKit.UIView?
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForFooterInSection section: Swift.Int) -> CoreGraphics.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, viewForFooterInSection section: Swift.Int) -> UIKit.UIView?
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+}
+extension RWRider.PaymentViewController : UIKit.UITableViewDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+}

@@ -1,0 +1,11 @@
+framework module RWRider {
+  umbrella header "RWRider.h"
+
+  export *
+  module * { export * }
+}
+
+module RWRider.Swift {
+    header "RWRider-Swift.h"
+    requires objc
+}

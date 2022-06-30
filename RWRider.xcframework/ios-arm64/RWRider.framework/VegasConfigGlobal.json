@@ -1,0 +1,201 @@
+{
+    "tipping": {
+        "rideTipLimit": 300,
+        "ridePaymentDelay": 86400
+    },
+    "accessibility": {
+        "phoneNumber": "+18776338747",
+        "title": "Please contact Lefleur Transportation\n1.877.MEDTRIP",
+        "enabled": false
+    },
+    "carTypes" : [
+                  {
+                  "maxPersons" : 4,
+                  "tncFeeRate" : 6,
+                  "title" : "STANDARD",
+                  "active" : true,
+                  "processingFee" : "1.00",
+                  "cancellationFee" : "1.00",
+                  "processingFeeRate" : 1,
+                  "plainIconUrl" : "https:\/\/media.rideaustin.com\/icon\/regular.png",
+                  "iconUrl" : "https:\/\/media.rideaustin.com\/icon\/regular_seats.png",
+                  "fullIconUrl" : "https:\/\/media.rideaustin.com\/icon\/Circle_regular@3x.png",
+                  "cityId" : 1,
+                  "ratePerMile" : "1.15",
+                  "processingFeeText" : "$1.00 Processing fee",
+                  "raFeeFactor" : 0,
+                  "carCategory" : "REGULAR",
+                  "minimumFare" : "4.00",
+                  "order" : 1,
+                  "baseFare" : "3.00",
+                  "ratePerMinute" : "0.50",
+                  "bookingFee" : "1.00",
+                  "description" : "Standard Car"
+                  },
+                  {
+                  "maxPersons" : 6,
+                  "tncFeeRate" : 6,
+                  "title" : "SUV",
+                  "active" : true,
+                  "processingFee" : "1.00",
+                  "cancellationFee" : "7.00",
+                  "processingFeeRate" : 1,
+                  "plainIconUrl" : "https:\/\/media.rideaustin.com\/icon\/suv.png",
+                  "iconUrl" : "https:\/\/media.rideaustin.com\/icon\/suv_seats.png",
+                  "cityId" : 1,
+                  "ratePerMile" : "1.15",
+                  "processingFeeText" : "$1.00 Processing fee",
+                  "raFeeFactor" : 0.1,
+                  "carCategory" : "SUV",
+                  "minimumFare" : "7.00",
+                  "order" : 2,
+                  "baseFare" : "5.00",
+                  "ratePerMinute" : "0.50",
+                  "bookingFee" : "1.00",
+                  "description" : "SUV Car"
+                  },
+                  {
+                  "maxPersons" : 4,
+                  "configuration" : "{\"disableTipping\":true}",
+                  "title" : "PREMIUM",
+                  "active" : true,
+                  "tncFeeRate" : 6,
+                  "processingFee" : "1.00",
+                  "cancellationFee" : "5.00",
+                  "processingFeeRate" : 1,
+                  "plainIconUrl" : "https:\/\/media.rideaustin.com\/icon\/premium.png",
+                  "iconUrl" : "https:\/\/media.rideaustin.com\/icon\/premium.png",
+                  "cityId" : 1,
+                  "ratePerMile" : "1.15",
+                  "processingFeeText" : "$1.00 Processing fee",
+                  "raFeeFactor" : 0.2,
+                  "carCategory" : "PREMIUM",
+                  "minimumFare" : "5.00",
+                  "order" : 3,
+                  "baseFare" : "3.00",
+                  "ratePerMinute" : "0.50",
+                  "bookingFee" : "1.00",
+                  "description" : "Premium Car"
+                  },
+                  {
+                  "carCategory" : "LUXURY",
+                  "processingFeeRate" : 1,
+                  "ratePerMile" : "3.75",
+                  "active" : true,
+                  "raFeeFactor" : 0.2,
+                  "processingFeeText" : "$1.00 Processing fee",
+                  "plainIconUrl" : "https:\/\/media.rideaustin.com\/icon\/luxury.png",
+                  "title" : "LUXURY",
+                  "maxPersons" : 4,
+                  "order" : 5,
+                  "minimumFare" : "10.00",
+                  "cancellationFee" : "10.00",
+                  "tncFeeRate" : 6,
+                  "iconUrl" : "https:\/\/media.rideaustin.com\/icon\/luxury.png",
+                  "baseFare" : "5.00",
+                  "processingFee" : "1.00",
+                  "cityId" : 1,
+                  "bookingFee" : "2.00",
+                  "ratePerMinute" : "0.50"
+                  }
+                  ],
+    "directConnect": {
+        "actionTitle": "Request Driver",
+        "description": "Direct Connect enables you to pair with your driver by simply entering their Driver ID.",
+        "placeholder": "Enter Driver ID",
+        "title": "Direct Connect",
+        "enabled": false
+    },
+    "smsMaskingEnabled": true,
+    "supportedCities": [
+                        {
+                        "cityId": 1,
+                        "cityName": "AUSTIN",
+                        "logoUrl": "https://media.drivevegas.k8.devfactory.com/logoRideAustin@3x.pn"
+                        },
+                        {
+                        "cityId": 2,
+                        "cityName": "HOUSTON",
+                        "logoUrl": "https://media.drivevegas.k8.devfactory.com/logoRideHouston@3x.png"
+                        },
+                        {
+                        "cityId": 3,
+                        "cityName": "VEGAS",
+                        "logoUrl": "https://media.drivevegas.k8.devfactory.com/logoRideHouston@3x.png"
+                        }
+                        ],
+    "geocodingConfiguration": {
+        "pickupHints": [{"name": "T3 Vegas Airport","areaPolygon": [ {"lng": -115.134969,"lat": 36.088166}, {"lng": -115.135141,"lat": 36.087290}, {"lng": -115.139078,"lat": 36.087334}, {"lng": -115.138874,"lat": 36.088184}],"designatedPickup": {"lng": -115.137061,"lat": 36.087820},"designatedPickups":[ {"name":" Terminal Pillar 15","driverCoord":{"lng":-115.138416,"lat":36.087517}},{"name":" Terminal Pillar 20","driverCoord":{"lng":-115.136693,"lat":36.087517}}]}],
+        "queryHints": [{"prefixes": ["t3", "ai"],"contains": ["airport"],"description": "Mccarran Terminal 3 Long Term Parking, Terminal 3 Departures, Las Vegas, NV 89119, USA","reference": "ChIJzz7F1eDFyIARuT-lSSsSDPQ","primaryAddress": "Mccarran International Airport","secondaryAddress": "Terminal 3 Departures, Las Vegas, NV 89119, USA"}]},
+    "rideCancellation": {
+        "enabled": false
+    },
+    "currentCity": {
+        "cityId": 3,
+        "cityName": "VEGAS",
+        "cityCenterLocation": "36.166398 -115.215554",
+        "cityCenterLocationData": {
+            "lat": 36.166398,
+            "lng": -115.215554
+        },
+        "cityBoundaryPolygon": [
+                                {
+                                    "lng": -114.991021,
+                                    "lat": 36.340681
+                                },
+                                {
+                                    "lng": -114.991021,
+                                    "lat": 36.133547
+                                },
+                                {
+                                    "lng": -115.378289,
+                                    "lat": 36.133547
+                                },
+                                {
+                                    "lng": -115.378289,
+                                    "lat": 36.340681
+                                }
+                                ]
+    },
+    "generalInformation": {
+        "applicationName" : "Pop-up RideShare",
+        "applicationNamePipe" : "Pop-up|RideShare",
+        "appstoreLink" : "itms-apps://itunes.apple.com/app/id1116489847",
+        "companyDomain" : "popuprideshare.com",
+        "companyWebsite" : "https://www.popuprideshare.com",
+        "facebookUrl" : "https://m.facebook.com/popuprideshare/?_rdr",
+        "facebookUrlSchemeiOS" : "fb://page?id=109935714903704",
+        "iconUrl" : "https://media.ride-vegas.com/car.png",
+        "legalDriver" : "https://popuprideshare.com/terms-of-use",
+        "legalRider" : "https://popuprideshare.com/terms-of-use",
+        "logoBlackUrl" : "https://media.ride-vegas.com/logoRideVegas@3x.png",
+        "logoUrl" : "https://media.ride-vegas.com/logoRideVegas_white@3x.png",
+        "playStoreLink" : "market://details?id=com.messageone.ridevegasrider",
+        "playStoreWeb" : "https://play.google.com/store/apps/details?id=com.messageone.ridevegasrider",
+        "privacyStatement" : "https://popuprideshare.com/privacy-policy",
+        "splashUrl" : "https://media.ride-vegas.com/photoVegas@3x.jpg",
+        "supportEmail" : "support@popuprideshare.com"
+    },
+    "rides": {
+        "distantPickUpNotificationThreshold": 200
+    },
+    "riderReferFriend": {
+        "enabled": true,
+        "detailtexttemplate": "Every time a new RideAustin user signs up with your invite code, they'll receive their first ride free. Once they take their first ride, you'll automatically get <codeValue> credited into your account (up to $500)",
+        "emailbodytemplate": "<p>You should try RideAustin! Get <codeValue> in ride credit using my code <b><codeLiteral><b>. Download the app at: <downloadUrl></p>",
+        "downloadUrl": "http://www.rideaustin.com",
+        "smsbodytemplate": "You should try RideAustin! Get <codeValue> in ride credit using my code <codeLiteral> Download the app at: <downloadUrl>"
+    },
+    "UT": {
+        "payWithBevoBucks": {
+            "enabled": false,
+            "iconLargeUrl":  "https://drivevgas.k8.devfactory.com/bevobucks_logo.png",
+            "ridePaymentDelay": 3600,
+            "description": "When you select Bevo Pay as payment method, you will be asked to pay with Bevo Pay after the trip.\n\nIf the trip is not paid within <ridePaymentDelay properly formatted server side> we will charge your credit card."
+        }
+    },
+    "promoCredits": {
+        "showTotal": true,
+        "title": "Credit Balance"
+    }
+}

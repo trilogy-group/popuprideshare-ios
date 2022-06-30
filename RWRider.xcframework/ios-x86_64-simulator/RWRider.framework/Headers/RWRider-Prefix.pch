@@ -1,0 +1,23 @@
+//
+//  RWRider-Prefix.pch
+//  RWRider
+//
+//  Created by Rahul Gera on 13/01/22.
+//
+
+#ifndef RWRider_Prefix_pch
+#define RWRider_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+    #import <QuartzCore/QuartzCore.h>
+    #import <Availability.h>
+    #if __IPHONE_OS_VERSION_MIN_REQUIRED
+        #import <MobileCoreServices/MobileCoreServices.h>
+    #else
+        #import <CoreServices/CoreServices.h>
+    #endif
+#endif
+
+#endif /* RWRider_Prefix_pch */
