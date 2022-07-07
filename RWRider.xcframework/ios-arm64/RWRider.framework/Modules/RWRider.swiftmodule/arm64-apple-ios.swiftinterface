@@ -37,6 +37,7 @@ public protocol FunctionEnable {
   func showDriverRegistration()
   func showCampaign()
   func showPromocode()
+  func disableCloseSdkButton()
   func setRegistrationMethod(method: RWRider.RegistrationMethod)
 }
 @objc public enum RegistrationMethod : Swift.Int {
@@ -99,6 +100,9 @@ public protocol FunctionEnable {
   @objc public var enableCampaign: Swift.Bool {
     get
   }
+  @objc public var disableCloseButton: Swift.Bool {
+    get
+  }
   @objc public var registrationMethod: RWRider.RegistrationMethod {
     get
   }
@@ -107,6 +111,7 @@ public protocol FunctionEnable {
   public func showCampaign()
   public func showPromocode()
   public func setRegistrationMethod(method: RWRider.RegistrationMethod)
+  public func disableCloseSdkButton()
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc public class DSFlowController : ObjectiveC.NSObject & RWRider.Coordinator {
@@ -250,6 +255,7 @@ public protocol RWRiderSDKDelegate {
   public func showCampaign()
   public func showPromocode()
   public func setRegistrationMethod(method: RWRider.RegistrationMethod)
+  public func disableCloseSdkButton()
   @objc deinit
 }
 @objc public class RWRiderRegisterInfo : ObjectiveC.NSObject {

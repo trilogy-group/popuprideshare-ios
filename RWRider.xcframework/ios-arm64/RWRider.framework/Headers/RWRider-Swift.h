@@ -236,6 +236,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AppConfigura
 @property (nonatomic, readonly) BOOL enableDriverRegistration;
 @property (nonatomic, readonly) BOOL enablePromocode;
 @property (nonatomic, readonly) BOOL enableCampaign;
+@property (nonatomic, readonly) BOOL disableCloseButton;
 @property (nonatomic, readonly) enum RegistrationMethod registrationMethod;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end

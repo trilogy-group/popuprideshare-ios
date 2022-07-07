@@ -178,7 +178,7 @@
 		</data>
 		<key>ConfirmStepViewController.nib</key>
 		<data>
-		LeeWeIUf4HGnzHoofoJB+yv+dRM=
+		HDSkiIYf2CEU6f4KeOEqWRx7Um4=
 		</data>
 		<key>CreateProfileViewController.nib</key>
 		<data>
@@ -2576,7 +2576,7 @@
 		</data>
 		<key>Headers/RWRider-Swift.h</key>
 		<data>
-		zQPttxMHAP0JGVYhImNqRImHhFw=
+		yYtQ0PA7wVq/arLHPkQXmVyFrLs=
 		</data>
 		<key>Headers/RWRider.h</key>
 		<data>
@@ -3080,11 +3080,11 @@
 		</data>
 		<key>Modules/RWRider.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		VZKyib3vH/1TXpJ7M7upohCHtO8=
+		p2cOPVcg5QbaXtJCgJoziX7AE6k=
 		</data>
 		<key>Modules/RWRider.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		3k5bF5ZRYOjYWrC+6EWwFXh1VHA=
+		TSuWVCH/0Tm2nxGeokIfSX2LkDk=
 		</data>
 		<key>Modules/RWRider.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -3092,11 +3092,11 @@
 		</data>
 		<key>Modules/RWRider.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		VZKyib3vH/1TXpJ7M7upohCHtO8=
+		p2cOPVcg5QbaXtJCgJoziX7AE6k=
 		</data>
 		<key>Modules/RWRider.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		3k5bF5ZRYOjYWrC+6EWwFXh1VHA=
+		TSuWVCH/0Tm2nxGeokIfSX2LkDk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -3372,7 +3372,7 @@
 		</data>
 		<key>Ride.momd/Ride 5.omo</key>
 		<data>
-		I7L7r5bSJWZPCBifDZdoJktFMmU=
+		15NE2Tj6jlTe99ue1MiSglODhpQ=
 		</data>
 		<key>Ride.momd/Ride 6.mom</key>
 		<data>
@@ -4924,7 +4924,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qc1uL/OFiuYTxx+hcOaFCoQozn3FnNFYYS3qhFjIIcw=
+			y0KBS4aUT/n48QrIVEI+TRZYHhFSlwsiz/6W4/AHAWM=
 			</data>
 		</dict>
 		<key>CreateProfileViewController.nib</key>
@@ -8459,7 +8459,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XRBBjT6cYv3/Q4lzb1CxEoMdOjbyLZ4qoPKKuMJXS2M=
+			r6W62+XGCSQrDuocLE/bQHumDvtNy5o63IwBzv4vMr4=
 			</data>
 		</dict>
 		<key>Headers/RWRider.h</key>
@@ -9334,14 +9334,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wQjYxXBtESl86GfJoHr9uGn6XEC+vZnODlvwr7gQ8bw=
+			qd0NDB+mtraEFpLEgf6zYAucQZFU6pWIJ8HNAYED8gc=
 			</data>
 		</dict>
 		<key>Modules/RWRider.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sbPxK7TzdLy/7GFmc2PYf4Kvl2rRYD8YDWXhR3KVboc=
+			434OYQU6eOu9cItlxKHkOpgE4dfaeka8VEQKZAHBpOg=
 			</data>
 		</dict>
 		<key>Modules/RWRider.swiftmodule/arm64.swiftdoc</key>
@@ -9355,14 +9355,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wQjYxXBtESl86GfJoHr9uGn6XEC+vZnODlvwr7gQ8bw=
+			qd0NDB+mtraEFpLEgf6zYAucQZFU6pWIJ8HNAYED8gc=
 			</data>
 		</dict>
 		<key>Modules/RWRider.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sbPxK7TzdLy/7GFmc2PYf4Kvl2rRYD8YDWXhR3KVboc=
+			434OYQU6eOu9cItlxKHkOpgE4dfaeka8VEQKZAHBpOg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -9845,7 +9845,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MA7gdMCs/Hu4xONi9QSf5lC7PdzDw8eVclopF6A7nOo=
+			WRiMtfCX39oRnMqyjXf+NRWkeDU9yjMI4+9t39L4qz8=
 			</data>
 		</dict>
 		<key>Ride.momd/Ride 6.mom</key>
