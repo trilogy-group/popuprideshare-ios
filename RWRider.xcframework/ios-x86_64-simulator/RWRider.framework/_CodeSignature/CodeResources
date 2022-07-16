@@ -178,7 +178,7 @@
 		</data>
 		<key>ConfirmStepViewController.nib</key>
 		<data>
-		HDSkiIYf2CEU6f4KeOEqWRx7Um4=
+		LeeWeIUf4HGnzHoofoJB+yv+dRM=
 		</data>
 		<key>CreateProfileViewController.nib</key>
 		<data>
@@ -226,11 +226,11 @@
 		</data>
 		<key>DriverCarPhotoViewController.nib</key>
 		<data>
-		d75dzYpyc5kzzXCoTUei2f9VQ6U=
+		yEMt8rQFljGOk5urADTXsEIYibM=
 		</data>
 		<key>DriverDisclosureViewController.nib</key>
 		<data>
-		JjP6nkZ5iXYmftDg4292VliX/ww=
+		r0qjjf7fssr1tDt67WFZhyFduCk=
 		</data>
 		<key>DriverFCRAAckViewController.nib</key>
 		<data>
@@ -254,7 +254,7 @@
 		</data>
 		<key>DriverInspectionStickerViewController.nib</key>
 		<data>
-		xlfvWe/p82KlutB8UKXNM7sv4eI=
+		mlfsMeb+quVbB1JDYmAAXuQWTAs=
 		</data>
 		<key>DriverPhotoViewController.nib</key>
 		<data>
@@ -310,7 +310,7 @@
 		</data>
 		<key>DriverSignup.storyboardc/Mw3-pU-L9g-view-hSM-NR-Qgj.nib</key>
 		<data>
-		I95lKO5cOjZuvBCQr2+d2wN6+Xk=
+		yjja8CU6c+MGNxXgGUkxmotuToM=
 		</data>
 		<key>DriverSignup.storyboardc/UINavigationController-dq7-Rc-Vr1.nib</key>
 		<data>
@@ -350,7 +350,7 @@
 		</data>
 		<key>DriverTNCFrontViewController.nib</key>
 		<data>
-		L+IwHqMIjaRN5+KqpbGA/jhlfug=
+		g0daw7hRH490Yz2wJePWTAQYHKs=
 		</data>
 		<key>EditPaymentViewController.nib</key>
 		<data>
@@ -1692,7 +1692,7 @@
 		</data>
 		<key>Headers/AppSetup.h</key>
 		<data>
-		59QZLHc7zayCKayMtr2D2OdwDOc=
+		lJ+3AGe+yphkfrN0S8wIsTmYpL4=
 		</data>
 		<key>Headers/AssetCityManager.h</key>
 		<data>
@@ -2292,7 +2292,7 @@
 		</data>
 		<key>Headers/PhoneStepViewController.h</key>
 		<data>
-		mnoRtumU2UXjC/UbhnBGrJgmmwQ=
+		jAqX3zAYCqM0J58KufrbL3mYQAM=
 		</data>
 		<key>Headers/PickerAddressPopAnimation.h</key>
 		<data>
@@ -3084,7 +3084,7 @@
 		</data>
 		<key>Modules/RWRider.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		RPQqCRwO+SyztscDWoUthg3CyM4=
+		763adjFYGcd7I2hMWK+xBGcvmRQ=
 		</data>
 		<key>Modules/RWRider.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -3096,7 +3096,7 @@
 		</data>
 		<key>Modules/RWRider.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		RPQqCRwO+SyztscDWoUthg3CyM4=
+		763adjFYGcd7I2hMWK+xBGcvmRQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -3372,7 +3372,7 @@
 		</data>
 		<key>Ride.momd/Ride 5.omo</key>
 		<data>
-		kwDNYY+GtMxDGw+byi0ZX6o5DOY=
+		MAhnpqTrgby675B2JF+N3oc6cDQ=
 		</data>
 		<key>Ride.momd/Ride 6.mom</key>
 		<data>
@@ -3460,7 +3460,7 @@
 		</data>
 		<key>SplashViewController.nib</key>
 		<data>
-		utsL6DoIj6v9O76bo/z/eEw213w=
+		0eknRpp60wlItKhN7kvnJhyN1LE=
 		</data>
 		<key>SplitFareHeaderSection.nib</key>
 		<data>
@@ -4924,7 +4924,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y0KBS4aUT/n48QrIVEI+TRZYHhFSlwsiz/6W4/AHAWM=
+			Qc1uL/OFiuYTxx+hcOaFCoQozn3FnNFYYS3qhFjIIcw=
 			</data>
 		</dict>
 		<key>CreateProfileViewController.nib</key>
@@ -5008,14 +5008,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			n4dfvcJekEu5ovPhmQ8Kv6sTGPCVrmkGsEnvEAaZ+xE=
+			XQSdz9y8gnNVLpZS9il4iN2/aHRRuM1FP1+ct2o3GTo=
 			</data>
 		</dict>
 		<key>DriverDisclosureViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tenEWsE7n19QGMaanSaz9F2Bwj+q4M4yUFULtHIEpcI=
+			FE9VZg5rz7Sppw5SoFFh3dWVcQRoo6BMpfBIBxXNmGk=
 			</data>
 		</dict>
 		<key>DriverFCRAAckViewController.nib</key>
@@ -5057,7 +5057,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			myjFnK+6UyXcS97tHayQ5S50Che8byRB9Zc/0n8rn+o=
+			1hdZwDUKQkZfoCvW3NY7jFTljki93o0w1Pv4xErU8kQ=
 			</data>
 		</dict>
 		<key>DriverPhotoViewController.nib</key>
@@ -5155,7 +5155,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iLU/P0RGuVwXRHbqwyRmv0uyVnmRAW3WidUCYeJLwCw=
+			H1xoClIx6CuKKus30Oiy75LQWf1o9yZ2WJMNh6DKAB4=
 			</data>
 		</dict>
 		<key>DriverSignup.storyboardc/UINavigationController-dq7-Rc-Vr1.nib</key>
@@ -5225,7 +5225,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HROoSfvuol1O1JTmWGC91ut3W9zfZ9qnYET+v7E4n9k=
+			eTOUoJRi6J1qs/TrWCBD49K43NW0Bt6KyXoAKnLTUDA=
 			</data>
 		</dict>
 		<key>EditPaymentViewController.nib</key>
@@ -6912,7 +6912,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oaVmk1pkCfoacGPLbW+jKVAfcpRsJjo3Pnhp4WSoud8=
+			ZtThTK5jKXz/nhbw7NQVq/x3pTHffNSD8UXZ3WpBqv8=
 			</data>
 		</dict>
 		<key>Headers/AssetCityManager.h</key>
@@ -7962,7 +7962,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+B1zJS8C3QtpHYxPAWGiiL5CeGWUBlUjT26MxXsiyUw=
+			yEhWYHqcNVvZao/QgzPd2FO3YqMT4YKsdt+GRYO5TXw=
 			</data>
 		</dict>
 		<key>Headers/PickerAddressPopAnimation.h</key>
@@ -9341,7 +9341,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VYGH/JdlmdjZoQBD0bBiPeLokaMCC/o0n8jcIg1pmF0=
+			YrM05LIqaunBhzAdd9lLgEkI4ojGQUjO+KZH4jx0GcA=
 			</data>
 		</dict>
 		<key>Modules/RWRider.swiftmodule/x86_64.swiftdoc</key>
@@ -9362,7 +9362,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VYGH/JdlmdjZoQBD0bBiPeLokaMCC/o0n8jcIg1pmF0=
+			YrM05LIqaunBhzAdd9lLgEkI4ojGQUjO+KZH4jx0GcA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -9845,7 +9845,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xOgv9lnD7/8a1Dc7LQlOHW9Lei64Y09EI0cqAb8oLD8=
+			AtlvCdc0gYXd29CxzYLODFIfFck3lFiziBwBe1j+yEs=
 			</data>
 		</dict>
 		<key>Ride.momd/Ride 6.mom</key>
@@ -9999,7 +9999,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MqvFxGuL8OAAsTq9EDjEm2V3VHaonZkhcTxkKl39oOc=
+			dDJ55OvjZNwSBtcV1LJ6du2HoeIOy6w0ZJ+vHIxWG1A=
 			</data>
 		</dict>
 		<key>SplitFareHeaderSection.nib</key>

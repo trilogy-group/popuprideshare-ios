@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 -(void)setupThirdParty;
 + (NSString*)bundleIdentifier;
 + (NSBundle*)bundle;
-+ (Boolean)isDemoApp;
++(BOOL)isRideShareApp;
 @end
 
 NS_ASSUME_NONNULL_END

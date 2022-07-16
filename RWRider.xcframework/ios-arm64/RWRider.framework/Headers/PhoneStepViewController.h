@@ -22,6 +22,7 @@
                                           token:(NSString *)token
                                     isLoginFlow:(Boolean)isLoginFlow;
 -(void)showRootLogin;
+-(void)emailAlreadyRegistered;
                                         
 
 @end
