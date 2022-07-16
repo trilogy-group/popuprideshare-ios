@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (instancetype)sharedInstance;
 + (NSString*)bundleIdentifier;
 + (NSBundle*)bundle;
++(BOOL)isRideShareApp;
 @end
 
 NS_ASSUME_NONNULL_END
