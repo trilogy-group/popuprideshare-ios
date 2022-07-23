@@ -233,7 +233,7 @@ extension UIKit.UIFont {
 public typealias LocationPickerCompletionBlock = (RWRiderSDKAPI.RAPickerAddressFieldType, RWRiderSDKAPI.RARideLocationDataModel?, Swift.Bool) -> Swift.Void
 @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) public class LocationPickerViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @objc @_Concurrency.MainActor(unsafe) public init(fieldType: RWRiderSDKAPI.RAPickerAddressFieldType, completion: @escaping RWRider.LocationPickerCompletionBlock)
+  @objc @_Concurrency.MainActor(unsafe) public init(fieldType: RWRiderSDKAPI.RAPickerAddressFieldType, location: CoreLocation.CLLocationCoordinate2D, completion: @escaping RWRider.LocationPickerCompletionBlock)
   @objc deinit
 }
 extension RWRider.LocationPickerViewController : GoogleMaps.GMSMapViewDelegate {
