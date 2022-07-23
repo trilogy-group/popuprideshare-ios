@@ -12,6 +12,7 @@
 
 - (NSString*)clearedPhoneNumber;
 - (NSString*)countryCode;
+- (NSString*)countryName;
 - (BOOL)hasCountryCode:(NSString*)countryCode;
 
 @end
