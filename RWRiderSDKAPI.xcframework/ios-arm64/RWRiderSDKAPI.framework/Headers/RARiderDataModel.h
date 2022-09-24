@@ -28,7 +28,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 typedef void(^RARiderGetCardBlock)(RACardDataModel *card, NSError *error);
-typedef void(^RARiderUpdateCards)(NSError* error);
+typedef void(^RARiderUpdateCards)(NSError *_Nullable error);
 
 @interface RARiderDataModel (Cards)
 

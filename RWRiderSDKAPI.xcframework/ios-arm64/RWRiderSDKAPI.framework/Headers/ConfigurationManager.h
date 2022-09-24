@@ -21,7 +21,7 @@
 + (void)checkConfigurationBasedOnLocation:(CLLocation * _Nullable)location;
 + (CityType)getCurrentCityType;
 + (BOOL)currentCityContainsCoordinate:(CLLocationCoordinate2D)coordinate;
-
++ (ConfigGlobal * _Nullable)defaultConfig;
 /**
  *  @brief exactly the name of the app
  */

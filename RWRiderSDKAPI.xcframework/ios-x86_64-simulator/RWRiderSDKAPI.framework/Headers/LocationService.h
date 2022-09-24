@@ -17,12 +17,19 @@ extern NSString* const kLocationServiceHasLatlng;
 extern NSString* const kLocationServiceHasHeading;
 extern NSString* const kLocationAuthorizationStatusChanged;
 
+@protocol LocationServiceDelegate <NSObject>
+
+-(void)locationPermissionChange;
+
+@end
+
 @interface LocationService : NSObject<CLLocationManagerDelegate>
 
 @property(nonatomic, strong, nonnull) CLLocationManager* locationManager;
 @property(atomic, strong, nullable) CLLocation* myLocation;
 @property(nonatomic) CLLocationDirection myDirection;
 @property(nonatomic) double elevation;
+@property(nonatomic, weak) id <LocationServiceDelegate> delegate;
 
 + (LocationService* _Nonnull)sharedService;
 
