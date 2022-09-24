@@ -184,6 +184,9 @@ extension UIKit.UIView {
 extension UIKit.UIButton {
   @objc @_Concurrency.MainActor(unsafe) dynamic public func applyGradientBGColor()
 }
+extension UIKit.UIView {
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func applyGradientBGColorView()
+}
 extension UIKit.UITextField {
   @objc @_Concurrency.MainActor(unsafe) dynamic public func newGradientBorderLayer(cornerRadius: CoreGraphics.CGFloat) -> QuartzCore.CAGradientLayer
   @objc @_Concurrency.MainActor(unsafe) dynamic public func applyGradientBorderColor(gradientBorderLayer: QuartzCore.CAGradientLayer)
@@ -234,6 +237,7 @@ public typealias LocationPickerCompletionBlock = (RWRiderSDKAPI.RAPickerAddressF
 @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) public class LocationPickerViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @objc @_Concurrency.MainActor(unsafe) public init(fieldType: RWRiderSDKAPI.RAPickerAddressFieldType, location: CoreLocation.CLLocationCoordinate2D, completion: @escaping RWRider.LocationPickerCompletionBlock)
+  @objc @_Concurrency.MainActor(unsafe) public func setMapPosition(mapView: GoogleMaps.GMSMapView)
   @objc deinit
 }
 extension RWRider.LocationPickerViewController : GoogleMaps.GMSMapViewDelegate {

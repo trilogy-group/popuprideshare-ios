@@ -13,7 +13,8 @@
 
 typedef NS_ENUM(NSUInteger, SectionType) {
     SectionTypeNormal,
-    SectionTypeFavoritePlaces
+    SectionTypeFavoritePlaces,
+    SectionTypeDeleteAccount
 };
 
 @interface SettingsSection : NSObject
@@ -23,7 +24,7 @@ typedef NS_ENUM(NSUInteger, SectionType) {
 @property (nonatomic) NSArray<RAFavoritePlace *> *places;
 @property (nonatomic) SectionType type;
 
-+ (instancetype)sectionWithTitle:(NSString *)title;
++ (instancetype)sectionWithTitle:(NSString *)title type:(SectionType)type;
 + (instancetype)favoritesSectionWithTitle:(NSString *)title
                                   places:(NSArray<RAFavoritePlace *> *)places;
 - (void)addObject:(id)object;

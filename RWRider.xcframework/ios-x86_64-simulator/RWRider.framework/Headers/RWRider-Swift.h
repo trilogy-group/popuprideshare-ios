@@ -289,6 +289,7 @@ SWIFT_CLASS("_TtC7RWRider16DSFlowController")
 
 
 @class RARideLocationDataModel;
+@class GMSMapView;
 @class NSCoder;
 @class NSBundle;
 
@@ -296,11 +297,11 @@ SWIFT_CLASS("_TtC7RWRider28LocationPickerViewController")
 @interface LocationPickerViewController : UIViewController
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithFieldType:(RAPickerAddressFieldType)fieldType location:(CLLocationCoordinate2D)location completion:(void (^ _Nonnull)(RAPickerAddressFieldType, RARideLocationDataModel * _Nullable, BOOL))completion OBJC_DESIGNATED_INITIALIZER;
+- (void)setMapPositionWithMapView:(GMSMapView * _Nonnull)mapView;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
-@class GMSMapView;
 @class GMSOverlay;
 @class GMSCameraPosition;
 
@@ -415,10 +416,10 @@ typedef SWIFT_ENUM(NSInteger, RegistrationMethod, open) {
 
 
 
-
 @interface UIImage (SWIFT_EXTENSION(RWRider))
 + (UIImage * _Nonnull)imageFromFrameworkWithName:(NSString * _Nonnull)name SWIFT_WARN_UNUSED_RESULT;
 @end
+
 
 
 
@@ -429,6 +430,11 @@ typedef SWIFT_ENUM(NSInteger, RegistrationMethod, open) {
 @interface UITextField (SWIFT_EXTENSION(RWRider))
 - (CAGradientLayer * _Nonnull)newGradientBorderLayerWithCornerRadius:(CGFloat)cornerRadius SWIFT_WARN_UNUSED_RESULT;
 - (void)applyGradientBorderColorWithGradientBorderLayer:(CAGradientLayer * _Nonnull)gradientBorderLayer;
+@end
+
+
+@interface UIView (SWIFT_EXTENSION(RWRider))
+- (void)applyGradientBGColorView;
 @end
 
 

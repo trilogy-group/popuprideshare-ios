@@ -11,5 +11,6 @@
 @interface TripHistoryViewController : BaseViewController
 
 @property (weak, nonatomic) IBOutlet UICollectionView *cvTripHistory;
+@property (weak, nonatomic) IBOutlet UILabel *noTripHistoryLabel;
 
 @end

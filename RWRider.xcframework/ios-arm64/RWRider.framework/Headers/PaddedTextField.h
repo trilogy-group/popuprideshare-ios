@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface PaddedTextField : UITextField
-
+{
+    UIButton *button;
+}
+-(void)enablePasswordToggle;
 @end

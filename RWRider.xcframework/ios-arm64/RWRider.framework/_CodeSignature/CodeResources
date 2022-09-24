@@ -14,7 +14,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		3ooQAC0A/t7Qz2LlHCfFQ0dORBM=
+		8hOuvtH3JC8lDwReWaj5ldbNG00=
 		</data>
 		<key>Austin11629JollyvillRoad.gpx</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>BottomDrawerView.nib</key>
 		<data>
-		XgYgcqAcVitpfxNuIFzhwUnwA1A=
+		spbHJg9VN9djGPMjtJpGwcq/jRc=
 		</data>
 		<key>CFCommentCell.nib</key>
 		<data>
@@ -178,7 +178,7 @@
 		</data>
 		<key>ConfirmStepViewController.nib</key>
 		<data>
-		LeeWeIUf4HGnzHoofoJB+yv+dRM=
+		HDSkiIYf2CEU6f4KeOEqWRx7Um4=
 		</data>
 		<key>CreateProfileViewController.nib</key>
 		<data>
@@ -199,6 +199,10 @@
 		<key>CrockettTX75835.gpx</key>
 		<data>
 		Du9pbjauTj0Tl/I7RW58jW5PG3k=
+		</data>
+		<key>DeleteAccountViewController.nib</key>
+		<data>
+		FHmAl8KeM1RYMop/e/kK6pFY2ho=
 		</data>
 		<key>DirectConnect.storyboardc/CategoryChooserViewController.nib</key>
 		<data>
@@ -262,7 +266,7 @@
 		</data>
 		<key>DriverSignUpViewController.nib</key>
 		<data>
-		i+Gu1fhXEgHiOhRxv3wu+kn2ENA=
+		NSo2S3dhAai5FO9iBGfypgOTaP4=
 		</data>
 		<key>DriverSignup.storyboardc/435-Tj-SeU-view-lsY-IK-zOQ.nib</key>
 		<data>
@@ -322,7 +326,7 @@
 		</data>
 		<key>DriverSignup.storyboardc/ijp-Gz-7MV-view-bE8-D4-fD9.nib</key>
 		<data>
-		zsSSco8DLXvlvhDbcx1MjtGuWRI=
+		nF1K7/81+iYpcFHZXZW6IP475mA=
 		</data>
 		<key>DriverSignup.storyboardc/mPR-OB-3LM-view-dnk-Qe-3gG.nib</key>
 		<data>
@@ -358,7 +362,7 @@
 		</data>
 		<key>EditViewController.nib</key>
 		<data>
-		udrD5Ub++x/38CqiC5BaP93SQp0=
+		GBo90wBTZVc/USbo1J/dxe90aFA=
 		</data>
 		<key>EmailStepViewController.nib</key>
 		<data>
@@ -1918,6 +1922,10 @@
 		<data>
 		lQpbMieupBuH7ajGY3EisWBz7Dw=
 		</data>
+		<key>Headers/DeleteAccountViewController.h</key>
+		<data>
+		mvxsdHBC5rlfBy6rIoS6c/+Bz7c=
+		</data>
 		<key>Headers/DeselectSegmentControl.h</key>
 		<data>
 		1a4vkbMqc4czS24B8CRpGch7Z/A=
@@ -2082,6 +2090,10 @@
 		<data>
 		zrPj1nSiv3/xTJ69fK/0Aqxta8k=
 		</data>
+		<key>Headers/LocationPermssionDeniedViewController.h</key>
+		<data>
+		bD955hf029vr0XCsGxH5Em9WEHY=
+		</data>
 		<key>Headers/LocationViewController.h</key>
 		<data>
 		lGt94skziSQ2eZ4aGAfh+uw6K2M=
@@ -2128,7 +2140,7 @@
 		</data>
 		<key>Headers/MessageFlowControllerProtocol.h</key>
 		<data>
-		fvIzydip7wrkj/yU4dxBfmusBw4=
+		H5sis59A5lK2JKn9esiA2eubmzc=
 		</data>
 		<key>Headers/ModelViewController.h</key>
 		<data>
@@ -2252,11 +2264,11 @@
 		</data>
 		<key>Headers/PaddedTextField.h</key>
 		<data>
-		b2qOM8xDXIUiM1YGj0RXBJFFuZE=
+		/bSmulpsxjqQYgz7xUWWcDLdM+s=
 		</data>
 		<key>Headers/PasswordStepViewController.h</key>
 		<data>
-		w6JLQy19ApiXZlCgkLR4vYGhivk=
+		dZ/8/AoOzCfUSatIcyXtdC60lg8=
 		</data>
 		<key>Headers/PasswordViewController.h</key>
 		<data>
@@ -2576,11 +2588,11 @@
 		</data>
 		<key>Headers/RWRider-Swift.h</key>
 		<data>
-		0m2MU0n3H+3/x1AFD83h5rZFmXI=
+		WUL4YPvMlgk8H4+OkDZSapx4/xY=
 		</data>
 		<key>Headers/RWRider.h</key>
 		<data>
-		bCORhj38jC6q0Z0XMKcb+B3Kdzs=
+		+1lyehA22RM5uI4khaE1IkagT+E=
 		</data>
 		<key>Headers/RWRiderPrefixHeader.pch</key>
 		<data>
@@ -2672,7 +2684,7 @@
 		</data>
 		<key>Headers/SettingsSection.h</key>
 		<data>
-		etl+PCbcRaoRmmDcyhI7b6oHO9c=
+		HZjAddjywUrsqt3M4O+zVME4YNE=
 		</data>
 		<key>Headers/SettingsViewController.h</key>
 		<data>
@@ -2756,7 +2768,7 @@
 		</data>
 		<key>Headers/TripHistoryViewController.h</key>
 		<data>
-		BQ42su4xyJMKXVYXMpPwcC2N6EQ=
+		ELj51+hbi8V6jAjz+33Bo9+EG0s=
 		</data>
 		<key>Headers/UIAlertController+Show.h</key>
 		<data>
@@ -2772,7 +2784,7 @@
 		</data>
 		<key>Headers/UIBarButtonItem+RAFactory.h</key>
 		<data>
-		YU668oBr5P5Oeu+NpRa42vO07VQ=
+		IPfkmm5y2CXAlHvZ4NZIvl+8dOg=
 		</data>
 		<key>Headers/UIColor+LightAndDark.h</key>
 		<data>
@@ -3040,7 +3052,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		hy3e+gvCQWvKXXRlzDF4hGu75C0=
+		ACcF/QFb3/lzXJwuPHWda6UWS0M=
 		</data>
 		<key>LIMultiLineLabelCell.nib</key>
 		<data>
@@ -3060,7 +3072,11 @@
 		</data>
 		<key>LocationAlertViewController.nib</key>
 		<data>
-		qvGZYop6+w2XK9jmj9bn9A1a/18=
+		20d/0qZMJ31UgzUTUKx+01dJnWE=
+		</data>
+		<key>LocationPermssionDeniedViewController.nib</key>
+		<data>
+		u1xP84s8l2Lxvj+y3iyCdDlFSCQ=
 		</data>
 		<key>LocationPickerViewController.nib</key>
 		<data>
@@ -3068,7 +3084,7 @@
 		</data>
 		<key>LocationViewController.nib</key>
 		<data>
-		63w47JHKOxTpEXILCmDQunIgths=
+		be/5vw0It/rmZ47zCJAk19WmPf0=
 		</data>
 		<key>LoginViewController.nib</key>
 		<data>
@@ -3080,11 +3096,11 @@
 		</data>
 		<key>Modules/RWRider.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		CnBga+6yq1TH9G4ZDx3UHcxrG9Y=
+		Ry4LMkNLp5ZIYTxaDXVecIK8EXI=
 		</data>
 		<key>Modules/RWRider.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		whcp73mtHhlGCl7hjzQqquhkejE=
+		kQHi8nwDIfh3TA2pz20evBdjzaI=
 		</data>
 		<key>Modules/RWRider.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -3092,11 +3108,11 @@
 		</data>
 		<key>Modules/RWRider.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		CnBga+6yq1TH9G4ZDx3UHcxrG9Y=
+		Ry4LMkNLp5ZIYTxaDXVecIK8EXI=
 		</data>
 		<key>Modules/RWRider.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		whcp73mtHhlGCl7hjzQqquhkejE=
+		kQHi8nwDIfh3TA2pz20evBdjzaI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -3164,7 +3180,7 @@
 		</data>
 		<key>PasswordStepViewController.nib</key>
 		<data>
-		gyU4sg4hkyn3VTA4jd5jq4Zfm0c=
+		ziLLcvSJbFm0yfuR5ZTc3J0QllA=
 		</data>
 		<key>PasswordViewController.nib</key>
 		<data>
@@ -3372,7 +3388,7 @@
 		</data>
 		<key>Ride.momd/Ride 5.omo</key>
 		<data>
-		k7PBbHebe6GD/2rLZ2pC/PYNfSY=
+		zd2V7m6utwys9QgEHZMtlUIA9gk=
 		</data>
 		<key>Ride.momd/Ride 6.mom</key>
 		<data>
@@ -3428,7 +3444,7 @@
 		</data>
 		<key>SMessageViewController.nib</key>
 		<data>
-		oN4cmXgcr0/0xwdfrGjfYJEBOhQ=
+		fjQPUdKjlKLkOxN2TtZHBOJuSRs=
 		</data>
 		<key>SelectPlaceMapViewController.nib</key>
 		<data>
@@ -3452,7 +3468,7 @@
 		</data>
 		<key>SettingsViewController.nib</key>
 		<data>
-		04Lz3j1sU8WuWDjbKH3K/xb5GqI=
+		jDnYpD3WTNX+5eLT1x0BzbH9r5c=
 		</data>
 		<key>SocialMediaTableViewController.nib</key>
 		<data>
@@ -3460,7 +3476,7 @@
 		</data>
 		<key>SplashViewController.nib</key>
 		<data>
-		0eknRpp60wlItKhN7kvnJhyN1LE=
+		oZVxH6p2m6g13ul6cluxJzLuv0c=
 		</data>
 		<key>SplitFareHeaderSection.nib</key>
 		<data>
@@ -4524,11 +4540,11 @@
 		</data>
 		<key>TripHistory.storyboardc/6pd-xP-dlM-view-SyR-CW-M1C.nib</key>
 		<data>
-		+X6/dGPH4jJLqh8AEychDZxXeA8=
+		b5TDgJL+6xzHgcwnQ8trgRsklFc=
 		</data>
 		<key>TripHistory.storyboardc/ADu-b2-kr1-view-GnI-MM-tsj.nib</key>
 		<data>
-		v2UKbgRxnKWcfKlcnTmH36JzqBM=
+		3isISUtkdVyvh2f9tVEQFORFfWg=
 		</data>
 		<key>TripHistory.storyboardc/Info.plist</key>
 		<data>
@@ -4560,7 +4576,7 @@
 		</data>
 		<key>TripHistory.storyboardc/W4W-q2-7ew-view-IN0-gv-kPk.nib</key>
 		<data>
-		MHrr7Yej2GeWBzMdjQoGkV1uInI=
+		VRHBgsCPNaRur7/ca/mtjnzSgzY=
 		</data>
 		<key>UICustomDatePicker.nib</key>
 		<data>
@@ -4572,7 +4588,7 @@
 		</data>
 		<key>VegasConfigGlobal.json</key>
 		<data>
-		xWbUOKPwdhumBHeQN2pkc04kZW4=
+		52QymC6FCLAuqryYS420wDSIjAY=
 		</data>
 		<key>WebViewController.nib</key>
 		<data>
@@ -4603,7 +4619,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			snX6CJRWqXd2af1ABBtz4BWhXJM=
+			xyBSOuAC76kwk+hFvcZzBBR1nyU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -4637,7 +4653,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4lit5nG/d3/SoYcxRDIAHGCdrfPRxyT0SGCu9ZBSFx8=
+			Uhz/xr7O6e/Yo8TwZ+RSGM0Sdhr48ZvvusjjCVIrqcQ=
 			</data>
 		</dict>
 		<key>Austin11629JollyvillRoad.gpx</key>
@@ -4840,7 +4856,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QzhYvbSQ2mnhz2qXjujiwp+UuGyTaecDWNumZww4DZk=
+			sTUUZ2PB/aIccTQzu/tILfRsGdq/Fbz/M8ayt6A0snU=
 			</data>
 		</dict>
 		<key>CFCommentCell.nib</key>
@@ -4924,7 +4940,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qc1uL/OFiuYTxx+hcOaFCoQozn3FnNFYYS3qhFjIIcw=
+			y0KBS4aUT/n48QrIVEI+TRZYHhFSlwsiz/6W4/AHAWM=
 			</data>
 		</dict>
 		<key>CreateProfileViewController.nib</key>
@@ -4960,6 +4976,13 @@
 			<key>hash2</key>
 			<data>
 			p1h0uj71YXrF/txT+Cj1rQwiYW3HBdZy7mjYbMUqnwI=
+			</data>
+		</dict>
+		<key>DeleteAccountViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dFof330iBDN51e/yo2uxuM+Zy8+mdTtsZZV98t+8EEM=
 			</data>
 		</dict>
 		<key>DirectConnect.storyboardc/CategoryChooserViewController.nib</key>
@@ -5071,7 +5094,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yh+pOwFs9dRpircO801215r8hTDlUQEFlb54cMtmDI4=
+			EMC+hpNjnhzv/Cc5lkGN7pnJWkAZv14TNFPNDVzJw3o=
 			</data>
 		</dict>
 		<key>DriverSignup.storyboardc/435-Tj-SeU-view-lsY-IK-zOQ.nib</key>
@@ -5176,7 +5199,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qJtopLm41jGynttOU9/k+f4gSmTavfa0rlWDymJ5RuE=
+			GdNziAztflequwuvlyPzmFivgy1lvVV2IQNuYoqhGmw=
 			</data>
 		</dict>
 		<key>DriverSignup.storyboardc/mPR-OB-3LM-view-dnk-Qe-3gG.nib</key>
@@ -5239,7 +5262,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3wcsPL8KgmP8e+WLlsanwkCtWLbXuQX9FqnfNVh0eIs=
+			AHiacoFL/FYWt+AKcVYdRBwsIzNL9Vd18H38681rFuE=
 			</data>
 		</dict>
 		<key>EmailStepViewController.nib</key>
@@ -7307,6 +7330,13 @@
 			0NtK/2fQh49cY9YAGQxAnnAB2P8A5ii/gTDeat6+DoQ=
 			</data>
 		</dict>
+		<key>Headers/DeleteAccountViewController.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5TzG18u8GtyV36VNCQz0NdUUlFA0YNeguID6UKTZhlI=
+			</data>
+		</dict>
 		<key>Headers/DeselectSegmentControl.h</key>
 		<dict>
 			<key>hash2</key>
@@ -7594,6 +7624,13 @@
 			yhRtdkuYkeG3UIk1Mkl0qxRb3SUnhF1mumKgXPisBwU=
 			</data>
 		</dict>
+		<key>Headers/LocationPermssionDeniedViewController.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rLYzYHmjelF+duRHefuLKZ9Q9a7ngYEET/mzeh0noMA=
+			</data>
+		</dict>
 		<key>Headers/LocationViewController.h</key>
 		<dict>
 			<key>hash2</key>
@@ -7675,7 +7712,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+k6DQxG1mt605JCO/hlz3gxF643EwSaXj8KSgxWaWx0=
+			5B7mj8plPLYHCcW6eVN4gvVn9ctjzmMbwVjzMKguI2A=
 			</data>
 		</dict>
 		<key>Headers/ModelViewController.h</key>
@@ -7892,14 +7929,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			V8l6kYC1IMHIwUlG2aByiumgpAYXe/gKacZKzHSfPUw=
+			VwVmBpwnCOHA5/RkUV4VZZNMNDqO9+K2dW+X2QC80b0=
 			</data>
 		</dict>
 		<key>Headers/PasswordStepViewController.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3W0fRu9cJbBzcOb9JuJck9912/f/8TBq3P0E5V9U+sw=
+			65zCvfyY8H/JO/IAdglpHpFtTlZB0z5lLDADNTlCwJU=
 			</data>
 		</dict>
 		<key>Headers/PasswordViewController.h</key>
@@ -8459,14 +8496,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+0EPHRpTSso0bkgjQ+UPItIS1r7fXBGXuo6/fHj0Eo0=
+			RXbwH547Dk5yttN/3OBp32U53YjTVTxbH7XEisSfYxc=
 			</data>
 		</dict>
 		<key>Headers/RWRider.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9Tl6sYKEs+73geNauYYirUzNvS7rFZL8XSN3f/xmt6I=
+			shJrfg+JH3nvfb0LJCyyQLbw48GncycVd7bLF0XMXR0=
 			</data>
 		</dict>
 		<key>Headers/RWRiderPrefixHeader.pch</key>
@@ -8627,7 +8664,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XkRAq/VhXCZQqFr9E5QI44rnN1AtM5nTFzsoViHDCmg=
+			VtpJsAkeZIl+Chj5BynEHArXqCeJKe07ZbA22KFINdI=
 			</data>
 		</dict>
 		<key>Headers/SettingsViewController.h</key>
@@ -8774,7 +8811,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OUkRpKPswaZE4lliAoXsFE4TIxhzflSH+PA4LYtoRDk=
+			kuCCWT7ONwFz994V0JzVSI1u3168lqqAph306w6RINE=
 			</data>
 		</dict>
 		<key>Headers/UIAlertController+Show.h</key>
@@ -8802,7 +8839,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AkHtsCMbNQH6gNkqkAQtZapH/dS9lu9t6ZNaEMu1COQ=
+			PuXBnHa0rt9T3SMe9Lk7+Bk7b7Fv+s+w8ll6iGCG9zk=
 			</data>
 		</dict>
 		<key>Headers/UIColor+LightAndDark.h</key>
@@ -9299,7 +9336,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wlPGZZU7Z14Zh2Z9/9w+OjEHAqosCSSjunDCcDCsu6E=
+			dXizzkKmKLNjFluaVKZJfeDCzSvD+ZtDFgh2i4ZdDQ0=
+			</data>
+		</dict>
+		<key>LocationPermssionDeniedViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OB16RuPjFdBwHD6dYbzJRrTBZEVQnrfQhT8qaoIgKqc=
 			</data>
 		</dict>
 		<key>LocationPickerViewController.nib</key>
@@ -9313,7 +9357,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QGRZqLVPLmioJc0xf3LhF5aQt9JX4PFG3YKV4CHJSe8=
+			CNR3oHUDrNrgaDv0x3Thv2veqteuZHSEhu4aOOrTwWw=
 			</data>
 		</dict>
 		<key>LoginViewController.nib</key>
@@ -9334,14 +9378,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6Xc9yNDgtx/KzIn8z7qa662x+aonqnkBDVTswsCMA8w=
+			o6cCXgP6onKaprlY3UFln1/bxKIKi8MzjSrXdyeIlsQ=
 			</data>
 		</dict>
 		<key>Modules/RWRider.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cddPSooDyvclhGobo29CnABmN51CTFvq2Ndp6JPeAd4=
+			DYQTp+2uQm3sa4sbR8gZV+T3rjwpgdvefwdrwvAz040=
 			</data>
 		</dict>
 		<key>Modules/RWRider.swiftmodule/arm64.swiftdoc</key>
@@ -9355,14 +9399,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6Xc9yNDgtx/KzIn8z7qa662x+aonqnkBDVTswsCMA8w=
+			o6cCXgP6onKaprlY3UFln1/bxKIKi8MzjSrXdyeIlsQ=
 			</data>
 		</dict>
 		<key>Modules/RWRider.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cddPSooDyvclhGobo29CnABmN51CTFvq2Ndp6JPeAd4=
+			DYQTp+2uQm3sa4sbR8gZV+T3rjwpgdvefwdrwvAz040=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -9481,7 +9525,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dIpO06dtck6MV8GHsG/Qddtk00LMbv+cKMVH+j/N8yc=
+			YFoSgZlC7C2qdj8ftBVWbnmAPtVwkiPjM0Q/v9NSy0A=
 			</data>
 		</dict>
 		<key>PasswordViewController.nib</key>
@@ -9845,7 +9889,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JRhyv73Ja89e+2lQC4DOKgyQPkrEuxfMy7/+HCq4J2o=
+			7XjeF3nnvr5AgnJykgz3sWogdGu9V8ZBzCTbnD8Lcjs=
 			</data>
 		</dict>
 		<key>Ride.momd/Ride 6.mom</key>
@@ -9943,7 +9987,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			C0mKZSsLulQrlegIE3NQ7UlxhmpEjoWCUkYQGbp+qtg=
+			oB1AsLy74ZL//Iveh/R02UZU+6yyy7TaoHCfjtF0SZA=
 			</data>
 		</dict>
 		<key>SelectPlaceMapViewController.nib</key>
@@ -9985,7 +10029,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mR08LZEf0eAR20zjeFvn8ilNGDUWaCFHg93nrS5xTAo=
+			R0MseC110v9FmPlWzlXWq76HYn6Zdx0bj/bg5G+o1AA=
 			</data>
 		</dict>
 		<key>SocialMediaTableViewController.nib</key>
@@ -9999,7 +10043,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dDJ55OvjZNwSBtcV1LJ6du2HoeIOy6w0ZJ+vHIxWG1A=
+			gMZJwRCjSTw4akv28Gkm7aANouAaNYRLzwoZi4ql7LQ=
 			</data>
 		</dict>
 		<key>SplitFareHeaderSection.nib</key>
@@ -11861,14 +11905,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KxkJvRUqnnnrtYE8fsb+OZyZzGL1cMUOUwJHhgNQR5k=
+			cgo1r2y3t8dPrMQUD6sM2ovlwJUXU2H1TYMQFRRc5ok=
 			</data>
 		</dict>
 		<key>TripHistory.storyboardc/ADu-b2-kr1-view-GnI-MM-tsj.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iaKQ7X7zO5o43qW2/O1eHJqQsVuHGQsmYhyaJyo23bw=
+			KDe2nbwaG3DbURN/9QTYITSBgQnKRO4V76eu+TKjYBU=
 			</data>
 		</dict>
 		<key>TripHistory.storyboardc/Info.plist</key>
@@ -11924,7 +11968,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xHyAB3UCbynuOZTJ8/mZhZ+/QtP4wL+sIuR8FdWd/7U=
+			t0vKKoVG/KAAYwKktxnPSnqlODCwBQ58USyAECkdFUk=
 			</data>
 		</dict>
 		<key>UICustomDatePicker.nib</key>
@@ -11945,7 +11989,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7mqg2jnRKGqTu05nI8tGOvEPEVMh2Z2S9BKOD/nuVfI=
+			hbsaVN+SRCevZ0u4jhoRDUDdG+PK0aHn+V7CQhwc5Yw=
 			</data>
 		</dict>
 		<key>WebViewController.nib</key>
@@ -11989,7 +12033,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/RnFrmfEC+by2Md2LC7E49EiL5aal3rUalmweMIFa1Y=
+			5TLkJ1RVtcIVsJAuR7/HwdYnA1qUYwnHurXDhBQP8sI=
 			</data>
 			<key>optional</key>
 			<true/>

@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "InsertingProtocol.h"
+#import <UIKit/UIKit.h>
 NS_ASSUME_NONNULL_BEGIN
 @class RACampaign;
 @protocol MessageFlowControllerProtocol
@@ -16,6 +17,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)hideCampaignMessage;
 - (void)showStackedRideInfoInViewController:(UIViewController<InsertingProtocol> * _Nonnull)viewController;
 - (void)hideStackedRideInfo;
-- (void)showPaymentDeficiencyInViewController:(UIViewController<InsertingProtocol> *_Nonnull)viewController;
+- (void)showPaymentDeficiencyInViewController:(UIViewController<InsertingProtocol> *_Nonnull)viewController commentDriverTopConstraint:(NSLayoutConstraint *)commentDriverTopConstraint;
 NS_ASSUME_NONNULL_END
 @end

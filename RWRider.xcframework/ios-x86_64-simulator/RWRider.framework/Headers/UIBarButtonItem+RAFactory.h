@@ -14,5 +14,6 @@
 + (instancetype _Nonnull)defaultWithTitle:(NSString * _Nonnull)title target:(id _Nullable)target action:(SEL _Nullable)action;
 + (instancetype _Nonnull)blueImageName:(NSString * _Nonnull)imageName target:(id _Nullable)target action:(SEL _Nullable)action;
 + (instancetype _Nonnull)defaultImageName:(NSString * _Nonnull)imageName target:(id _Nullable)target action:(SEL _Nullable)action;
++ (instancetype _Nonnull)customWithTitle:(NSString * _Nonnull)title target:(id _Nullable)target action:(SEL _Nullable)action;
 
 @end

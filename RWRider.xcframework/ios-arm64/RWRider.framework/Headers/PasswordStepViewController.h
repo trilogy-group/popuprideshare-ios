@@ -35,6 +35,7 @@
 @property(weak, nonatomic) IBOutlet FlatButton *nextButton;
 @property (strong, nonatomic) IBOutlet UIImageView *thePasswordVerifiedImage;
 @property (strong, nonatomic) IBOutlet UIImageView *confirmPasswordVerifiedImage;
+@property (weak, nonatomic) IBOutlet UIButton *buttonShowPassword;
 
 @property(nonatomic) Boolean isTheEmailVerified;
 @property(nonatomic) Boolean isNextBtnEnabled;
