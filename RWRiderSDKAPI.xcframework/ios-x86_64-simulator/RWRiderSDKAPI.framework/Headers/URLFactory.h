@@ -58,6 +58,7 @@ FOUNDATION_EXPORT NSString *const kPathSurgeAreas;
 
 FOUNDATION_EXPORT NSString *const kPathLogin;
 FOUNDATION_EXPORT NSString *const kPathLogout;
+FOUNDATION_EXPORT NSString *const kPathDeleteAccount;
 FOUNDATION_EXPORT NSString *const kPathFacebookLogin;
 FOUNDATION_EXPORT NSString *const kPathRecoverPassword;
 FOUNDATION_EXPORT NSString *const kPathChangePassword;

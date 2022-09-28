@@ -12,6 +12,7 @@
 #import "RWRiderLoginAPIWrapper.h"
 #import "RWRiderRegisterAPIWrapper.h"
 #import "RWRiderForgotPasswordAPIWrapper.h"
+#import "RAEnvironmentManager.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface RWRiderAPIWrapper : NSObject
@@ -22,7 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (strong, nonatomic) id<RWRiderForgotPasswordAPIDelegate> forgotPasswordDelegate;
 +(void)setupClient:(NSString*)clientCode;
 + (instancetype)sharedInstance;
-
+-(void)setEnvironment: (RAEnvironment)environment;
 @end
 
 NS_ASSUME_NONNULL_END

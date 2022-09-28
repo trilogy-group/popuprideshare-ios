@@ -554,7 +554,7 @@
 		</data>
 		<key>Headers/RASessionAPI.h</key>
 		<data>
-		nhSJYpMGuJrgv4WUukwEuPs1gEo=
+		BWeL6IS3JQNjFwC0zqCAIJS8Flo=
 		</data>
 		<key>Headers/RASessionDataModel.h</key>
 		<data>
@@ -562,7 +562,7 @@
 		</data>
 		<key>Headers/RASessionManager.h</key>
 		<data>
-		F6qD6jaTf0QncPduPSPA7/rOpU8=
+		1gt/vhoM4CqsMZtwD9SJ5OArV7c=
 		</data>
 		<key>Headers/RASplitFarePolling.h</key>
 		<data>
@@ -598,7 +598,7 @@
 		</data>
 		<key>Headers/RWRiderAPIWrapper.h</key>
 		<data>
-		ar0Gbbvbae7e7yyx5PflphZMTl0=
+		Duq1buRYeKHYXgEsdM8Tar0MM9A=
 		</data>
 		<key>Headers/RWRiderAPIWrapperInterface.h</key>
 		<data>
@@ -610,7 +610,7 @@
 		</data>
 		<key>Headers/RWRiderClient.h</key>
 		<data>
-		oJi1XJ/+1R0ePwxYWdzxcf5KOFk=
+		F0Hv0pOCnUaEKH4g7Nu6jx5pw0Q=
 		</data>
 		<key>Headers/RWRiderForgotPasswordAPIWrapper.h</key>
 		<data>
@@ -694,7 +694,7 @@
 		</data>
 		<key>Headers/URLFactory.h</key>
 		<data>
-		s5o0je02vnMhVPH0hukNCTyMoBs=
+		OJ/n3H9AKumsFRXz/eH8Ng2b0y0=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -1678,7 +1678,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mc003g8qxVUhO75S/uC4bYZGBSxWTitsRFOkfAQQU9o=
+			b9gvaqC2yLW8AFTdm0Hfh/ckzTiGFnBv2+DQXm27Fxw=
 			</data>
 		</dict>
 		<key>Headers/RASessionDataModel.h</key>
@@ -1692,7 +1692,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OLVxiyqIcieQMm3mL7xRoa4tLKSF+yhb9tQIhAfVdKU=
+			tm5LYJt65MTKSv2H3opEnka3oHeE/XI5rijxVluhm5w=
 			</data>
 		</dict>
 		<key>Headers/RASplitFarePolling.h</key>
@@ -1755,7 +1755,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SWJZZuREEuX3Jnqjs5lR/962cBndbAfIJo5vYMj4AUU=
+			HZaD+myFZYymK4uKyfn7uzgOgcCX0uYSnlZOcxEMz1A=
 			</data>
 		</dict>
 		<key>Headers/RWRiderAPIWrapperInterface.h</key>
@@ -1776,7 +1776,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pndd0qLRlzooF0T1dRnpbHfCcYO2dprPGok/0ps3XS0=
+			5dI5BHa11/YymAjfWJLLPPXRhm4Qf9VmT2zpCXcDNBg=
 			</data>
 		</dict>
 		<key>Headers/RWRiderForgotPasswordAPIWrapper.h</key>
@@ -1923,7 +1923,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AzZONZHAuzvW+4BoeXPMjUy5Bevt8zt7KhQPGsYO3uY=
+			ExDe1A+DAvYw4yquvoCP2t9YS0ZO4seEhO/Y+KToT1A=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -41,3 +41,10 @@ typedef void(^RAPartialSessionCompletionBlock)(NSError *error);
 + (void)updatePassword:(NSString *)password withCompletion:(APIResponseBlock)handler;
 
 @end
+@interface RASessionAPI (DeleteAccount)
+
++ (void)deleteAccountForUser:(NSString*)userId WithCompletion:(APIResponseBlock)handler;
+
+@end
+
+

@@ -23,6 +23,7 @@
 #import "SupportTopicAPI.h"
 #import "RAActiveDriversAPI.h"
 
+
 @protocol RWRiderClientDelegate <NSObject>
 -(void)changeRideStatus:(RARideStatus)status;
 -(void)updateEstimationCompletion:(NSDate*_Nullable)date;
@@ -193,6 +194,17 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)postLostAndFoundFoundParameters:(NSDictionary *_Nonnull)params
                               andImages:(NSDictionary<NSString *, NSData *> *_Nullable)images
                          withCompletion:(LostAndFoundBlock _Nonnull)completion;
+
+@end
+
+NS_ASSUME_NONNULL_END
+
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface RWRiderClient (DeleteAccount)
+
+-(void)deleteAccount:(DeleteAccountCompletion)handler;
 
 @end
 

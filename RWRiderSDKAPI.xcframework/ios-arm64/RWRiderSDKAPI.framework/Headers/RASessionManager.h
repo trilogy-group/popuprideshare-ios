@@ -11,6 +11,8 @@
 #import "RAUserDataModel.h"
 #import "RARiderDataModel.h"
 #import "RASessionDataModel.h"
+
+typedef void (^DeleteAccountCompletion)(id _Nullable responseObject, NSError* _Nullable error);
 NS_ASSUME_NONNULL_BEGIN
 @interface RASessionManager : NSObject
 
@@ -29,7 +31,7 @@ NS_ASSUME_NONNULL_BEGIN
 -(void)clearCurrentSession;
 -(void)clearHeader;
 - (void)setCurrentSession:(nullable RASessionDataModel *)currentSession;
-
+-(void)deleteAccount:(DeleteAccountCompletion)handler;
 @end
 
 typedef void(^RALoginCompletionBlock)(RARiderDataModel * _Nullable rider, NSError * _Nullable error);
