@@ -62,7 +62,7 @@ public protocol FunctionEnable {
     get
   }
   @objc public var stripeKey: Swift.String? {
-    get
+    @objc get
   }
   @objc public var appleMerchantIdentifier: Swift.String? {
     get

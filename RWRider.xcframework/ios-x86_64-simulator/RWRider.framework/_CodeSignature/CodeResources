@@ -178,7 +178,7 @@
 		</data>
 		<key>ConfirmStepViewController.nib</key>
 		<data>
-		LeeWeIUf4HGnzHoofoJB+yv+dRM=
+		HDSkiIYf2CEU6f4KeOEqWRx7Um4=
 		</data>
 		<key>CreateProfileViewController.nib</key>
 		<data>
@@ -202,7 +202,7 @@
 		</data>
 		<key>DeleteAccountViewController.nib</key>
 		<data>
-		FHmAl8KeM1RYMop/e/kK6pFY2ho=
+		gSIeQr6+YVVoEKE86ynziSrAM3c=
 		</data>
 		<key>DirectConnect.storyboardc/CategoryChooserViewController.nib</key>
 		<data>
@@ -262,7 +262,7 @@
 		</data>
 		<key>DriverPhotoViewController.nib</key>
 		<data>
-		8uINe3tzs268CXDBQm4zn1zUxPo=
+		lFlXjI32ke2cCScw4QNpbTik7kY=
 		</data>
 		<key>DriverSignUpViewController.nib</key>
 		<data>
@@ -2592,7 +2592,7 @@
 		</data>
 		<key>Headers/RWRider.h</key>
 		<data>
-		+1lyehA22RM5uI4khaE1IkagT+E=
+		bCORhj38jC6q0Z0XMKcb+B3Kdzs=
 		</data>
 		<key>Headers/RWRiderPrefixHeader.pch</key>
 		<data>
@@ -3096,11 +3096,11 @@
 		</data>
 		<key>Modules/RWRider.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		WTIHD/a658vrvPjcodulpaNkCJM=
+		FTew3+5/ZyAtp1CxOz4uZKsT1sY=
 		</data>
 		<key>Modules/RWRider.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		JNozM/RG4HeMdzNoNFgASCAJMhw=
+		jWIw4TgRBVVNhUhNAgQmXrPuN0M=
 		</data>
 		<key>Modules/RWRider.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -3108,11 +3108,11 @@
 		</data>
 		<key>Modules/RWRider.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		WTIHD/a658vrvPjcodulpaNkCJM=
+		FTew3+5/ZyAtp1CxOz4uZKsT1sY=
 		</data>
 		<key>Modules/RWRider.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		JNozM/RG4HeMdzNoNFgASCAJMhw=
+		jWIw4TgRBVVNhUhNAgQmXrPuN0M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -3388,7 +3388,7 @@
 		</data>
 		<key>Ride.momd/Ride 5.omo</key>
 		<data>
-		Fg3AhIhIslZp75ggXdJD0BPSS6o=
+		2tmdLIrLA3IohqBakPRcBbdNFXA=
 		</data>
 		<key>Ride.momd/Ride 6.mom</key>
 		<data>
@@ -4940,7 +4940,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qc1uL/OFiuYTxx+hcOaFCoQozn3FnNFYYS3qhFjIIcw=
+			y0KBS4aUT/n48QrIVEI+TRZYHhFSlwsiz/6W4/AHAWM=
 			</data>
 		</dict>
 		<key>CreateProfileViewController.nib</key>
@@ -4982,7 +4982,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dFof330iBDN51e/yo2uxuM+Zy8+mdTtsZZV98t+8EEM=
+			bzuJpuQrFjPUjmmWLM9X8Asu6Uia5UmYnLbneDZ++Gw=
 			</data>
 		</dict>
 		<key>DirectConnect.storyboardc/CategoryChooserViewController.nib</key>
@@ -5087,7 +5087,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BtQtduvvFagct7vO/Pp0pc5qTjJ1H+wCZKk/1d+fO/s=
+			FBXQGRg+QmXJeF5gDEyW3nY0VoUqbYCrUjuIF+XiHDw=
 			</data>
 		</dict>
 		<key>DriverSignUpViewController.nib</key>
@@ -8503,7 +8503,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			shJrfg+JH3nvfb0LJCyyQLbw48GncycVd7bLF0XMXR0=
+			9Tl6sYKEs+73geNauYYirUzNvS7rFZL8XSN3f/xmt6I=
 			</data>
 		</dict>
 		<key>Headers/RWRiderPrefixHeader.pch</key>
@@ -9378,14 +9378,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ozhJES4r6Z36Jt5GWFkDxtLxv6D5czKV+IUyVTuMQeM=
+			TMEjswTwLBxKt8+bQCUXydaiOVCALMnZ50Wb8rTRy88=
 			</data>
 		</dict>
 		<key>Modules/RWRider.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wU2xnVMxnnRNyDg7pzkkrELOyVJ2jyHsaKI8ps9Lv04=
+			qzppAZ1DUKLdeUYjmpnQRummsn31qxpO4ZyIajKIuEQ=
 			</data>
 		</dict>
 		<key>Modules/RWRider.swiftmodule/x86_64.swiftdoc</key>
@@ -9399,14 +9399,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ozhJES4r6Z36Jt5GWFkDxtLxv6D5czKV+IUyVTuMQeM=
+			TMEjswTwLBxKt8+bQCUXydaiOVCALMnZ50Wb8rTRy88=
 			</data>
 		</dict>
 		<key>Modules/RWRider.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wU2xnVMxnnRNyDg7pzkkrELOyVJ2jyHsaKI8ps9Lv04=
+			qzppAZ1DUKLdeUYjmpnQRummsn31qxpO4ZyIajKIuEQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -9889,7 +9889,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			U5+gi9w36iBIktMGNntUR25KOQs8+2G6VaQsHcwVbBA=
+			cO4QBexnkrNSfPY8GRGGcZT5r4Wf/9FwCrxOLQpCfAY=
 			</data>
 		</dict>
 		<key>Ride.momd/Ride 6.mom</key>
